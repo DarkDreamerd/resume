@@ -19,6 +19,9 @@ h1, h2 {
     margin: 0;
 }
 
+.leftside {
+    display: flex;
+}
 .tik {
     display: flex;
     flex-direction: column;
