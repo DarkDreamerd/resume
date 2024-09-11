@@ -13,6 +13,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 h1, h2 {
@@ -26,13 +27,123 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 1px;
 }
 
+.section {
+    margin-bottom: 20px;
+    border-top: 2px solid #4caf50;
+    padding-top: 5px;
+}
+
+.about {
+    margin-top: 20px;
+}
 .right {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
     gap: 5px;
+}
+
+.table {
+    border: 1px solid green;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.table-title {
+    text-align: center;
+    border-bottom: 1px solid green;
+}
+
+.border-left {
+    border-left: 1px solid green;
+}
+
+.border-right {
+    border-right: 1px solid green;
+}
+
+.table-list {
+    width: fit-content;
+}
+
+.table-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-green {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.imgrez {
+    width: 70%;
+}
+
+.tech-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    /* transition: box-shadow 0.5s easy; */
+}
+
+.tech-cards:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 20px 0 #5a9645;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.form-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-inputarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+ 
+.form-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.form-button:hover {
+    background-color: #45a049;
 }
