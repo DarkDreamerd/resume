@@ -68,8 +68,8 @@ h1, h2 {
     border-right: 1px solid green;
 }
 
-.table-list {
-    width: fit-content;
+.table-list li:hover {
+    color: green;    
 }
 
 .table-content {
@@ -79,7 +79,7 @@ h1, h2 {
 }
 
 .section-green {
-    background-color: green;
+    background-color: #5A9645;
     color: white;
     text-align: center;
     padding: 5px;
@@ -135,7 +135,7 @@ h1, h2 {
 }
  
 .form-button {
-    background-color: #4caf50;
+    background-color: #5A9645;
     color: white;
     padding: 8px 20px;
     border: none;
@@ -147,3 +147,9 @@ h1, h2 {
 .form-button:hover {
     background-color: #45a049;
 }
+
+.hyperlink-social {
+    text-decoration: none;
+    color: inherit;
+}
+
